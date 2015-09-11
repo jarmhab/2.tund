@@ -26,3 +26,29 @@
 	}
 
 ?>
+
+<br>
+
+<?php
+
+// niimitu korda "palju", kui on vanust
+
+	for($i = 0; $i < $age; $i = $i + 1) {
+		
+		echo "palju ". $i. " ";
+	}
+	
+	echo "õnne";
+	?>
+	
+	<br>
+	
+<?php
+
+//kuupaev kujul: Friday, 11.09.2015
+echo( date("l, j.M.Y"));
+
+
+
+
+?>
